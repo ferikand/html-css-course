@@ -1,4 +1,4 @@
-body {
+article {
   border: 5px solid black;
   font-family: sans-serif;
 }
@@ -24,6 +24,10 @@ body {
 .more-info:link,
 .more-info:visited {
   color: black;
+}
+
+.more-info:hover {
+  text-decoration: none;
 }
 
 .product-details {
